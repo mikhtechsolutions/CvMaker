@@ -24,7 +24,7 @@ class Auth extends MY_Controller {
 	}
 
 	/**
-	 * Default method
+	 * Default method123
 	 */
 	public function index(){
 
