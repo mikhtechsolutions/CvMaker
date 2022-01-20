@@ -1,0 +1,1682 @@
+/* --------------------------
+:: Template Name: Ozient - App Landing Page 
+:: Template Author: CodeGlamour
+:: Template Author URI: https://www.codeglamour.com/
+:: Description: Ozient is a One Page App Landing Template. It's very clean, creative & beautiful. It's super responsive & ultra light.
+:: Version: v1.0
+:: Created: 04/15/2018  MM/DD/YYYY
+-------------------------- */
+
+/*------------------------------------------------------------------------------------
+
+[Table of contents]
+
+01.Base CSS
+02.Main Header CSS
+03.Main Banner CSS
+04.How it works CSS
+05.Advance Features CSS
+06.Why is the best & About Special Section
+07.Fact CSS
+08.Pricing Plane CSS
+09.Video Section CSS
+10.Our Blog CSS
+11.Clients Testimonial CSS
+12.App ScreenShorts
+13.Newsletter CSS
+14.Contact Us CSS
+16.Responsive CSS
+17.Proloader CSS
+
+--------------------------------------------------------------------------------------*/
+
+/* -----------------------------------
+:: 1. Base CSS Start
+------------------------------------ */
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+{
+	font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    margin-top:0;
+    line-height: 1;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 0;
+    color:#636d75;
+
+}
+a{
+	color: #726a84;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+a:hover, a:active, a:focus {
+    outline: none;
+    text-decoration: none;
+    color: #00c2a5;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+ul > li{
+	color: #726a84;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.card-body{
+    color: #636d75;
+    font-size: 14px;
+}
+
+/* ------ Helper Classes -------------- */
+
+.bold{
+    font-weight: 600;
+}
+
+.mobile-device {
+    background: #fff;
+    border: 1px solid #edf4f8;
+    margin: 0 auto;
+    position: relative;
+    max-width: 255px;
+    border-radius: 36px;
+    padding: 55px 0;
+    -webkit-box-shadow: inset 0 4px 10px 1px #fff, inset 0 0 6px 0 rgba(66,77,86,.5), 0 2px 0 #aeb5bb, 0 20px 50px -25px rgba(0,0,0,.5);
+    box-shadow: inset 0 4px 10px 1px #fff, inset 0 0 6px 0 rgba(66,77,86,.5), 0 2px 0 #aeb5bb, 0 20px 50px -25px rgba(0,0,0,.5);
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+.mt-70 {
+    margin-top: 70px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-150 {
+    margin-top: 150px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.mr-50 {
+    margin-right: 50px;
+}
+
+.mr-100 {
+    margin-right: 100px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+.ml-100 {
+    margin-left: 100px;
+}
+
+
+
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pt-150 {
+    padding-top: 150px;
+}
+
+.pr-15 {
+    padding-right: 15px;
+}
+
+.pr-30 {
+    padding-right: 30px;
+}
+
+.pr-50 {
+    padding-right: 50px;
+}
+
+.pr-100 {
+    padding-right: 100px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+.pb-60 {
+    padding-bottom: 60px;
+}
+.pb-70 {
+    padding-bottom: 70px;
+}
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.pl-15 {
+    padding-left: 15px;
+}
+
+.pl-30 {
+    padding-left: 30px;
+}
+
+.pl-50 {
+    padding-left: 50px;
+}
+
+.pl-100 {
+    padding-left: 100px;
+}
+
+.button-white, .button a:hover{
+	color: #fff;
+}
+
+.section_tag_clouds .section_detail a{
+	border: 1px solid #e5e5e5;
+    color: #4c5462;
+    display: inline-block;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    margin-right: 2px;
+    padding: 0 15px;
+}
+
+.btn-round{
+	border-radius: 100px;
+	background: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+}
+
+.blog-left-sidebar input{
+	background-color: #f7f7f7;
+    border: medium none;
+    height: 45px;
+    padding: 10px 45px 10px 15px;
+    width: 100%;
+}
+
+.blog-left-sidebar button{
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #41c9a2;
+    font-size: 18px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 70px;
+}
+#features{
+	position: relative;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+#features:before {
+    content: '';
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    transform: skewY(170deg);
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    background-image: -moz-linear-gradient(0deg, #f6f9f8 0%, #f6f9f8 100%);
+    background-image: -webkit-linear-gradient(0deg, #f6f9f8 0%, #f6f9f8 100%);
+    background-image: -ms-linear-gradient(0deg, #f6f9f8 0%, #f6f9f8 100%);
+    background-image: -linear-gradient(0deg, #f6f9f8 0%, #f6f9f8 100%);
+    opacity: 1;
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+
+.video-section{
+	position: relative;
+	padding-top: 170px;
+	padding-bottom: 150px;
+}
+
+.video-section:before {
+    content: '';
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    transform: skewY(170deg);
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    background-image: -moz-linear-gradient(0deg, #f6f9f8 0%, #f6f9f8 100%);
+    background-image: -webkit-linear-gradient(0deg, #f6f9f8 0%, #f6f9f8 100%);
+    background-image: -ms-linear-gradient(0deg, #f6f9f8 0%, #f6f9f8 100%);
+    background-image: -linear-gradient(0deg, #f6f9f8 0%, #f6f9f8 100%);
+    opacity: 1;
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+
+#pricing{
+	position: relative;
+	padding-top: 130px;
+	padding-bottom: 150px;
+}
+
+#pricing:before {
+    content: '';
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    transform: skewY(170deg);
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    background-image: -moz-linear-gradient(0deg, #f6f9f8 0%, #f6f9f8 100%);
+    background-image: -webkit-linear-gradient(0deg, #f6f9f8 0%, #f6f9f8 100%);
+    background-image: -ms-linear-gradient(0deg, #f6f9f8 0%, #f6f9f8 100%);
+    background-image: -linear-gradient(0deg, #f6f9f8 0%, #f6f9f8 100%);
+    opacity: 1;
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+
+#testimonial{
+	position: relative;
+	padding-top: 130px;
+	padding-bottom: 150px;
+}
+
+#testimonial:before {
+    content: '';
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    transform: skewY(170deg);
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    background-image: -moz-linear-gradient(0deg, #f6f9f8 0%, #f6f9f8 100%);
+    background-image: -webkit-linear-gradient(0deg, #f6f9f8 0%, #f6f9f8 100%);
+    background-image: -ms-linear-gradient(0deg, #f6f9f8 0%, #f6f9f8 100%);
+    background-image: -linear-gradient(0deg, #f6f9f8 0%, #f6f9f8 100%);
+    opacity: 1;
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+
+.main_banner_area .breadcrumb-nav li a{
+	color: white;
+}
+
+.active, .page-link{
+	color: #41c9a2;
+}
+
+.page-item.active .page-link{
+	color: #fff;
+	background-color: #41c9a2;
+    border-color: #41c9a2;
+}
+
+.page-link:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #41c9a2;
+    border-color: #41c9a2;
+}
+
+
+.main_banner_area{
+	background: rgba(0, 0, 0, 0) url(../images/blog-img/5.jpg) no-repeat scroll center center / cover;
+    position: relative;
+}
+
+.main_banner_area:before{
+	background: rgba(39, 45, 58, 0.75) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+section{
+	padding: 70px 0;
+}
+
+.section-heading{
+    margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+.section-heading > h2 {
+    font-weight: 300;
+    color: #636d75;
+    font-size: 40px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.section-heading > p {
+    font-weight: 300;
+    color: #636d75;
+    margin: 0;
+}
+
+.line-title-white,
+.line-title-center,
+.line-title-left {
+    width: 80px;
+    height: 2px;
+    background-color: #43cea2;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.line-title-center {
+    margin-left: calc(50% - 40px);
+}
+.line-title-left {
+    margin-left: 5px;
+}
+
+
+.btn{
+    min-width: 167px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.img-padding-tb{
+    padding: 30px 0 30px;
+}
+
+/* --------------------------
+:: 2. Header Area CSS
+-------------------------- */
+
+.main-header {
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+    padding: 0 4%;
+}
+.navbar{
+	padding: 1.2rem 1rem;
+}
+
+.navbar .collapse.show ul{
+	
+}
+
+.top_menu .navbar-brand {
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    line-height: 1;
+    padding: 0;
+}
+
+.top_menu .navbar-brand:hover,
+.top_menu .navbar-brand:focus {
+    color: #fff;
+}
+
+.top_menu .navbar-brand .logo{
+    height: 50px;
+    margin-top: -8px;
+}
+
+.top_menu .navbar-brand .logo-sticky{
+    height: 50px;
+    margin-top: -8px;
+}
+
+.top_menu{
+    position: relative;
+    z-index: 2;
+}
+
+.top_menu #nav .nav-link {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 0;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    padding: 10px 15px;
+}
+
+.top_menu #nav .nav-link:hover {
+    color: #00c9a4;
+}
+
+.top_menu nav ul li > a:hover {
+    color: #41c9a2;
+}
+
+.line {
+    border-top: 1px solid #f8f9fa;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* stcicky css */
+.main-header.sticky {
+    background-color: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    height: 82px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+.main-header.sticky .top_menu .navbar-brand {
+    color: #41c9a2;
+}
+
+.main-header.sticky .top_menu #nav .nav-link {
+    color: #636d75;
+}
+
+.main-header.sticky .top_menu #nav .nav-link:hover{
+    color: #5b615f;
+}
+
+
+
+
+/* --------------------------
+:: 3. Main Banner Area CSS
+-------------------------- */
+
+
+.main_banner_area .info{
+    padding: 50px 0;
+}
+
+.info > p{
+    color: #f1f2f3;
+}
+
+.info button{
+    color: #fff;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 0 !important;
+}
+
+.info button:hover {
+    background-color: #ffffff;
+    color: #43cea2;
+    border: 1px solid #ffffff;
+    border-radius: 0 !important;
+}
+
+/* --------------------------
+:: 4. How it works Area CSS
+-------------------------- */
+.how-it-single {
+    padding: 40px;
+    margin-bottom: 30px;
+    -webkit-transition-duration: 800ms;
+    -o-transition-duration: 800ms;
+    transition-duration: 800ms;
+}
+
+.how-it-single:hover {
+    -webkit-box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
+            box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
+}
+
+.how-it-single p {
+    margin-bottom: 0;
+}
+
+.how-it-single > h4 {
+    color: #636d75;
+    margin-bottom: 15px;
+}
+.how-it-single h4 i {
+    margin-right: 8px;
+    font-size: 30px;
+    color: #43cea2;
+}
+
+
+/* --------------------------
+:: 5. Feature Area CSS
+-------------------------- */
+
+.feature-single{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.feature-single h4{
+    padding-top: 1rem;
+    color: #636d75;
+}
+
+.feature-left .feature-single h4 i{
+    float: right;
+    margin-left: 15px;
+    font-size: 30px;
+    color: #43cea2;
+}
+
+.feature-right .feature-single h4 i {
+    float: left;
+    margin-right: 15px;
+    font-size: 30px;
+    color: #43cea2;
+}
+
+.feature-img {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* --------------------------
+:: 6. Why is the best & Special Area CSS
+-------------------------- */
+
+.app-download-area {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 1;
+    flex-basis: 1;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.app-download-btn a {
+    border: 1px solid #41c9a2;
+    border-radius: 2px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 15px 30px;
+    -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.app-download-btn.active a,
+.app-download-btn a:hover {
+    border-color: transparent;
+    background-color: #41c9a2;
+}
+
+.app-download-btn a i {
+    color: #41c9a2;
+    font-size: 24px;
+    margin-right: 15px;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.app-download-btn a p {
+    font-size: 16px;
+    line-height: 1;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    color: #41c9a2;
+}
+
+.app-download-btn a p span {
+    font-size: 12px;
+    display: block;
+}
+
+.app-download-btn:first-child {
+    margin-right: 20px;
+}
+
+.app-download-btn a:hover i,
+.app-download-btn.active a i,
+.app-download-btn.active a p,
+.app-download-btn a:hover p {
+    color: #fff;
+}
+
+
+#about .feature-single{
+    margin-bottom: 30px;
+}
+
+#about .feature-single h4{
+    padding-top: 1rem;
+}
+
+#about .feature-left, .feature-right{
+    
+}
+
+#about.feature-left .feature-icon {
+    float: right;
+    margin-left: 2rem;
+}
+
+#about .feature-right .feature-icon {
+    float: left;
+    margin-right: 2rem;
+}
+
+#about .feature-icon {
+    width: 6rem;
+    height: 6rem;
+    color: #41c9a2;
+    text-align: center;
+    margin-bottom: 1rem;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+#about .feature-icon i {
+    font-size: 30px;
+    line-height: 6rem;
+}
+
+#about .feature-icon:hover {
+    color: #41c9a275;
+}
+
+.feature-img1 {
+    min-width: 100%;
+    height: auto;
+    padding-top: 70px;
+}
+
+
+/* --------------------------
+:: 7. Facts Area CSS
+-------------------------- */
+
+.facts_area {
+    z-index: auto;
+    background-image: -webkit-linear-gradient(0deg, #43cea2 0%, #185a9d 100%);
+}
+.single-fact{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.facts-content > i {
+    color: #ffffff;
+    font-size: 36px;
+}
+
+.counter-area {
+    min-width: 100px;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+}
+
+.counter-area > h3 {
+    color: #ffffff;
+    font-size: 60px;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.facts-content > p {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+
+/* --------------------------
+:: 8. Pricing Plan Area CSS
+-------------------------- */
+
+.pricing-plane-area {
+    background: #f5f9fc;
+}
+
+.plan-item {
+    background: #ffffff;
+    border: 1px solid #ebebeb;
+    margin-bottom: 30px;
+}
+
+.plan-item .package-price h4 {
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 0;
+    line-height: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #4bcca7;
+}
+
+.plan-item .plan-button > a {
+    background: #636d75;
+    padding: 10px 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.plan-item .package-description > p {
+    margin-bottom: 0;
+    line-height: 1;
+    padding: 20px 20px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.plan-item .package-description > p:first-child {
+    border-top: 1px solid #ebebeb;
+    padding: 20px 20px;
+    font-weight: 700;
+}
+
+.plan-item:hover .plan-button > a {
+    background-color: white;
+    color: #636d75;
+}
+
+.pricing-detail{
+    background-image:-webkit-linear-gradient(0deg, #43cea2 0%, #185a9d 100%);
+    color: white;
+    padding : 30px 30px;
+}
+
+.pricing-detail > h5{
+    font-size: 35px;
+}
+
+.pricing-btn button {
+    color: #43cea2;
+    background: transparent;
+    border: 1px solid #43cea2;
+    border-radius: 0 !important;
+}
+
+.pricing-btn button:hover{
+    background-color: #43cea2;
+    color: #fff;
+    border: 1px solid #43cea2;
+    border-radius: 0 !important;
+}
+
+/* --------------------------
+:: 9 OUR TEAM Area CSS
+-------------------------- */
+
+.team-member {
+    position: relative;
+    margin-bottom: 30px;
+    border: 1px solid #ececec;
+    border-radius: 2px;
+}
+
+.team-box img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.team-overlay {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+}
+
+.team-member-content {
+    white-space: nowrap;
+    color: #fff;
+    position: absolute;
+    overflow: hidden;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+.team-member-content ul li {
+    margin-bottom: 5px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #fff;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+}
+
+.team-member-content ul li:hover {
+    margin-right: 7px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #fff;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    background-color: #fff;
+}
+
+.team-member-content ul li a i {
+    height: 40px;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+}
+
+.team-member-content ul li:hover i{
+    color: #41c9a2;
+}
+
+.team-box-name {
+    padding: 18px 0;
+}
+
+.blog-box, .team-box-name {
+    position: relative;
+    overflow: hidden;
+}
+
+.team-box-name h4 {
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.team-box-name h6 {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 3px;
+}
+
+.team-box:hover .team-overlay {
+    opacity: 0.7;
+    background: -webkit-linear-gradient(0deg, #43cea2 0%, #185a9d 100%);
+}
+
+
+/* --------------------------
+:: 10 Video Area CSS
+-------------------------- */
+
+.video-area {
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+    background-position: center center;
+    background-size: cover;
+    height: 460px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
+}
+
+.video-area:after {
+    content: '';
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    background-image: -moz-linear-gradient(0deg, rgba(67, 206, 162, 0.95) 0%, rgba(24, 90, 157, 0.9) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgba(67, 206, 162, 0.95) 0%, rgba(24, 90, 157, 0.9) 100%);
+    background-image: -ms-linear-gradient(0deg, rgba(67, 206, 162, 0.95) 0%, rgba(24, 90, 157, 0.9) 100%);
+    background-image: -linear-gradient(0deg, rgba(67, 206, 162, 0.95) 0%, rgba(24, 90, 157, 0.9) 100%);
+    opacity: .6;
+}
+
+.video-area .video-play-btn a {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    color: #41c9a2;
+    text-align: center;
+    display: block;
+    font-size: 36px;
+    line-height: 86px;
+    padding-left: 5px;
+    border-radius: 50%;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+.video-area .video-play-btn a:hover {
+    background-color: #41c9a2;
+    color: #fff;
+}
+
+.box-icon-1 {
+    margin-bottom: 0px;
+    padding: 25px;
+}
+
+.box-icon-top {
+    display: flex !important;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.box-icon-1 i {
+    margin-right: 15px;
+    font-size: 30px;
+    color: #43cea2;
+}
+
+.box-icon-1 h4 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #346da7;
+}
+
+.box-icon-1 p {
+    margin-bottom: 0px;
+}
+
+/* --------------------------
+:: 11. Blog Area CSS
+-------------------------- */
+
+.social{
+	background-color: #f6f6f6;
+	padding: 15px 30px;
+}
+
+.social_links{
+	margin-top: -12px;
+}
+
+.social_tags{
+	margin-top: -6px;
+}
+.blockquote{
+	background-color: #f6f6f6;
+    border: 0 none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 60px 0 30px 30px;
+    padding: 30px;
+}
+
+#blog {
+  padding-bottom: 0px;
+}
+#blog .blog-item-area {
+  background: #fff;
+  border-radius: 0px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  -webkit-transition: transform 0.2s linear, -webkit-box-shadow 0.2s linear;
+  -moz-transition: transform 0.2s linear, -moz-box-shadow 0.2s linear;
+  transition: transform 0.2s linear, box-shadow 0.2s linear;
+}
+#blog .blog-item-area:hover {
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
+}
+#blog .blog-item-area:hover .blog-item-img:before {
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+}
+#blog .blog-item-img {
+  position: relative;
+}
+#blog .blog-item-img img {
+  width: 100%;
+}
+#blog .blog-item-text {
+  border: 1px solid #f1f1f1;
+  padding: 20px;
+}
+#blog .blog-item-text .meta-tags {
+  margin-bottom: 10px;
+}
+#blog .blog-item-text .meta-tags span {
+  color: #999;
+  margin-right: 10px;
+}
+#blog .blog-item-text .meta-tags span i {
+  margin-right: 5px;
+}
+#blog .blog-item-text .meta-tags span a {
+  color: #999;
+  float: right;
+}
+#blog .blog-item-text .meta-tags span a:hover {
+  color: #2a3855;
+}
+#blog .blog-item-text h3 {
+  line-height: 26px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+#blog .blog-item-text h3 a {
+  color: #41c9a2;
+}
+#blog .blog-item-text h3 a:hover {
+  color: #2a3855;
+}
+#blog .blog-item-text p {
+  line-height: 25px;
+}
+
+.btn-blog {
+    color: #fff;
+    border: 1px solid #41c9a2;
+    background-color: #41c9a2;
+    border-radius: 0;
+    min-width: 116px;
+}
+
+.btn-blog:hover {
+  color: #41c9a2;
+  background-color: transparent;
+  border: 1px solid #41c9a2;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+
+/* --------------------------
+:: 12 App Screenshots Area CSS
+-------------------------- */
+
+.app_screenshots_slides {
+    
+    margin-bottom: 30px;
+}
+
+.app_screenshots_slides .single-shot {
+    opacity: 0.7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    -webkit-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85)
+}
+
+.app_screenshots_slides .center .single-shot {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1)
+}
+
+.app-screenshots-area .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 3px solid #41c9a2;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 6px;
+    margin-top: 50px;
+}
+
+.app-screenshots-area .owl-dot.active {
+    background-color: #41c9a2;
+    border: transparent;
+}
+
+.app-screenshots-area .owl-dots {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+/* --------------------------
+:: 12 Testimonials Area CSS
+-------------------------- */
+.clients_testimonial_area .client-name > h5 {
+    color: #41c9a2;
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+.clients_testimonial_area .star-icon > i {
+    font-size: 18px;
+    color: #f1b922;
+}
+
+.clients_testimonial_area .client-description > p {
+    max-width: 1010px;
+    margin: auto;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.clients_testimonial_area .client > i {
+    font-size: 36px;
+    color: #41c9a2;
+    margin-bottom: 30px;
+}
+
+.clients_testimonial_area .client-name > p {
+    color: #b5aec4;
+}
+
+.clients_testimonial_area ul>li{
+    color: #f8f9fa;
+}
+
+.clients_testimonial_area .slick-dots {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.clients_testimonial_area .slick-dots li button {
+    width: 12px;
+    height: 12px;
+    text-indent: -999999999999999999999999px;
+    border: 3px solid #a49fba;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 5.5px;
+    outline: none;
+}
+
+.clients_testimonial_area .slick-dots li.slick-active button {
+    background-color: #41c9a2;
+    border-color: #41c9a2;
+}
+
+.clients_testimonial_area .slick-slide.client-thumbnail {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 129px;
+}
+
+
+.clients_testimonial_area .slick-slide img {
+    display: block;
+    width: 80px !important;
+    height: 80px !important;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.clients_testimonial_area .slick-slide.slick-current img {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.clients_testimonial_area .slick-arrow {
+    position: absolute;
+    width: 30px;
+    background-color: #f8f9fa;
+    height: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: #b5aec4;
+    display: block;
+    line-height: 550%;
+    left: 0;
+    z-index: 90;
+    cursor: pointer;
+}
+
+.clients_testimonial_area .slick-arrow.fa-angle-right {
+    left: auto;
+    right: 0;
+    top: 0;
+}
+
+/* --------------------------
+:: 13. contact-us Area CSS
+-------------------------- */
+
+#faq .card-header{
+    background-color: white;
+}
+
+#faq .card{
+    margin-bottom: 30px;
+    border-width: 0 0 0 3px;
+    border-style: solid;
+    -webkit-border-image: -webkit-linear-gradient(#00c5a5, rgba(0, 120, 192, 0.93)) 1 100%;
+    -o-border-image: -o-linear-gradient(#00c5a5, rgba(0, 120, 192, 0.93)) 1 100%;
+    border-image: linear-gradient(#00c5a5, rgba(0, 120, 192, 0.93)) 1 100%;
+}
+
+.faq-img{
+    margin-bottom: 20px;
+}
+
+
+/* --------------------------
+:: 13. contact-us Area CSS
+-------------------------- */
+
+#contact-us{
+    padding: 50px 0 80px;
+}
+
+.my-form .form-group {
+    position: relative;
+}
+
+.my-form label {
+    position: absolute;
+    top: 14%;
+    font-size: 25px;
+    margin-left: 14px;
+}
+
+.my-form .form-group label i {
+    color: #09aba9;
+    font-size: 24px;
+}
+
+.my-form .form-control {
+    height: 50px;
+    background-color: transparent;
+    padding: 0 20px 0 50px;
+    font-size: 15px;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.btn-submit {
+    color: #fff;
+    border: 1px solid #41c9a2;
+    background-color: #41c9a2;
+    border-radius: 0;
+    min-width: 116px;
+    padding: 10px;
+}
+
+.btn-submit:hover {
+  color: #41c9a2;
+  background-color: transparent;
+  border: 1px solid #41c9a2;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+
+/* --------------------------
+:: 14. Newsletter Area CSS
+-------------------------- */
+
+.newsletter_area .section-heading > h2{
+	font-weight: 300;
+    color: linear-gradient(90deg, #2c90e4 0%, #2baffd 100%);
+    font-size: 40px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.newsletter{
+	margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.newsletter .form-control{
+	font-size: 18px;
+    padding: 15px 15px;
+    border-radius: 25px !important;
+}
+.newsletter span{
+	position: absolute;
+    right: 1%;
+    top: 9%;
+    z-index: 98;
+}
+
+.input-group-btn button:hover{
+    color: #43cea2;
+    background: transparent;
+    border: 1px solid #43cea2;
+    border-radius: 25px 25px 25px 25px !important;
+}
+
+.input-group-btn button{
+    background-color: #43cea2;
+    color: #fff;
+    border: 1px solid #43cea2;
+    padding: 12px;
+    border-radius: 25px 25px 25px 25px !important;
+}
+
+.subscribe-heading{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.subscribe-heading h2{
+    font-weight: 300;
+    color: #fff;
+    font-size: 40px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+
+/* --------------------------
+:: 15. Footer Area CSS
+-------------------------- */
+
+footer{
+    background: #333333;
+    padding: 50px 0 50px;
+}
+
+.social-icons{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.social-icons li a{
+    background: #41c9a2 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 100px;
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    z-index: 1;
+}
+
+.social-icons li a:hover{
+    background-color: #fff;
+    color: #41c9a2;
+}
+
+.copy-right{
+    color: #c0cbd4;
+}
+
+.copy-right a{
+    color: #41c9a2;
+}
+
+
+/* --------------------------
+:: 17. Preloader CSS
+-------------------------- */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999;
+    background-image: -moz-linear-gradient(0deg, rgba(67, 206, 162, 0.95) 0%, rgba(24, 90, 157, 0.9) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgba(67, 206, 162, 0.95) 0%, rgba(24, 90, 157, 0.9) 100%);
+    background-image: -ms-linear-gradient(0deg, rgba(67, 206, 162, 0.95) 0%, rgba(24, 90, 157, 0.9) 100%);
+    background-image: -linear-gradient(0deg, rgba(67, 206, 162, 0.95) 0%, rgba(24, 90, 157, 0.9) 100%);
+}
+.ozient-folding-cube {
+  top: 41%;  
+  margin: 20px auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+}
+
+.ozient-folding-cube .ozient-cube {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1); 
+}
+.ozient-folding-cube .ozient-cube:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  -webkit-animation: ozient-foldCubeAngle 2.4s infinite linear both;
+          animation: ozient-foldCubeAngle 2.4s infinite linear both;
+  -webkit-transform-origin: 100% 100%;
+      -ms-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
+}
+.ozient-folding-cube .ozient-cube2 {
+  -webkit-transform: scale(1.1) rotateZ(90deg);
+          transform: scale(1.1) rotateZ(90deg);
+}
+.ozient-folding-cube .ozient-cube3 {
+  -webkit-transform: scale(1.1) rotateZ(180deg);
+          transform: scale(1.1) rotateZ(180deg);
+}
+.ozient-folding-cube .ozient-cube4 {
+  -webkit-transform: scale(1.1) rotateZ(270deg);
+          transform: scale(1.1) rotateZ(270deg);
+}
+.ozient-folding-cube .ozient-cube2:before {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+.ozient-folding-cube .ozient-cube3:before {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s; 
+}
+.ozient-folding-cube .ozient-cube4:before {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+@-webkit-keyframes ozient-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+            transform: perspective(140px) rotateX(-180deg);
+    opacity: 0; 
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+            transform: perspective(140px) rotateX(0deg);
+    opacity: 1; 
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+            transform: perspective(140px) rotateY(180deg);
+    opacity: 0; 
+  } 
+}
+
+@keyframes ozient-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+            transform: perspective(140px) rotateX(-180deg);
+    opacity: 0; 
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+            transform: perspective(140px) rotateX(0deg);
+    opacity: 1; 
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+            transform: perspective(140px) rotateY(180deg);
+    opacity: 0; 
+  }
+}

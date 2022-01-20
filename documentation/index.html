@@ -1,0 +1,414 @@
+<!doctype html>
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>iprofile - Multiuser Profile & Resume Builder</title>
+<meta name="description" content="Best Multiuser Online Resume and Profile Builder Script">
+<meta name="author" content="Codeglamour">
+<meta name="copyright" content="Codeglamour">
+<meta name="generator" content="Documenter v1.6">
+<link rel="stylesheet" href="css/documenter_style.css" media="all">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+<style>
+html {
+	background-color: #FFFFFF;
+	color: #383838;
+	font-size: 14px;
+}
+		::-moz-selection {
+background:#444444;
+color:#DDDDDD;
+}
+::selection {
+ background: #444444;
+ color: #DDDDDD;
+}
+#documenter_sidebar #documenter_logo {
+	font-size: 29px;
+  color: #007175;
+  padding-top: 20px;
+  height: 10%;
+  text-align: center;
+  font-weight: 700;
+}
+a {
+	color: #0000FF;
+}
+hr {
+	border-top: 1px solid #EBEBEB;
+	border-bottom: 1px solid #FFFFFF;
+}
+#documenter_sidebar, #documenter_sidebar ol a {
+	background-color: #DDDDDD;
+	color: #222222;
+}
+#documenter_sidebar ol a {
+	-webkit-text-shadow: 1px 1px 0px #EEEEEE;
+	-moz-text-shadow: 1px 1px 0px #EEEEEE;
+	text-shadow: 1px 1px 0px #EEEEEE;
+}
+#documenter_sidebar ol {
+	border-top: 1px solid #AAAAAA;
+}
+#documenter_sidebar ol a {
+	border-top: 1px solid #EEEEEE;
+	border-bottom: 1px solid #AAAAAA;
+	color: #444444;
+}
+#documenter_sidebar ol a:hover {
+	background: #444444;
+	color: #DDDDDD;
+	border-top: 1px solid #444444;
+}
+#documenter_sidebar ol a.current {
+	background: #444444;
+	color: #DDDDDD;
+	border-top: 1px solid #444444;
+}
+#documenter_copyright {
+	display: block !important;
+	visibility: visible !important;
+}
+</style>
+</head>
+
+
+<body>
+  <div id="documenter_sidebar"> <a href="#documenter_cover" id="documenter_logo">iprofile Script</a>
+      <ol id="documenter_nav">
+        <li><a class="current" href="#documenter_cover">Start</a></li>
+        <li><a class="current" href="#system_requirements">System Requirements</a></li>
+		    <li><a class="current" href="#overview">Overview</a></li>
+        <li><a href="#install_quickstart">Install Quickstart</a></li>
+        <li><a href="#config">Site Configuration</a></li>
+		    <li><a href="#library">Third Party Libraries</a></li>
+        <li><a href="#customization">Customization</a></li>
+        <li><a href="#user">User Panel</a></li>
+        <li><a href="#admin">Admin Panel</a></li>
+        <li><a href="#changelogs">Changelogs</a></li>
+        <li><a href="#version">Version</a></li>
+        <li><a href="#support">Support</a></li>
+      </ol>
+      <div id="documenter_copyright">Copyright &copy; 2020 by CodeGlamour</div>
+    </div>
+    <div id="documenter_content">
+      <section id="documenter_cover">
+        <h1>iprofile - Multiuser Profile & Resume Script Guide</h1>
+        <hr>
+        <ul>
+          <li>Created: September 19 , 2019</li>
+          <li>Updated: May 20, 2020</li>
+          <li>By: CodeGlamour</li>
+          <li>Email: <a href="mailto:codeglamourofficial@gmail.com">codeglamourofficial@gmail.com</a></li>
+		      <p>We would like to thank you for purchasing this script! We are very pleased you have chosen our script for your project, you will not be disappointed! Before you get started, please be sure to always check out these documentation files. We outline all kinds of good information, and provide you with all the details you need to use.If you have any questions that are beyond the scope of this help file, please feel free to contact us on codeglamourofficial@gmail.com </p>
+        </ul>
+        <br/><br/>
+        <h4>Note: Customizing code and other design related work can be done as freelance work on a $20-30 hourly rate only with Paypal and/or Payoneer. </h4>
+      </section>
+
+      <section id="system_requirements">  
+        <h3>System Requirements</h3>
+        <hr>
+         <p>To installing iprofile Script Integration with Codeigniter, Your web server must be running PHP 5.6 or higher, and Mysql 5 or higher. Below are a list of items you should ensure your host can comply with.</p>
+         <ul>
+          <li>PHP 7</li>
+          <li>PHP 5.6+</li>
+          <li>MYSQLi 5.1+</li>
+          <li>Mcrypt Extension</li>
+          <li>MBString Extension</li>
+          <li>MYSQLi Extension</li>
+          <li>CURL Extension (recommended)</li>
+          <p>*In most hosting accounts these extensions are enabled by default. But you should check with your hosting provider.</p>
+        </ul>
+
+    </section>
+	  
+	  <section id="overview">
+		<h3>Overview</h3>
+		<p style="width:50%">
+		  iprofile Script  is a multiuser profile, resume and vcard script. It comes with clean, secured, responsive, SEO friendly & eye-catching design which will attract your future employer with the first impression. You can easily add your Services, Experiences, Skills, Portfolios & Blogs without any coding skills. This script is perfect to promote yourself and your business, focused for: multiuser, portfolio, freelancer, photographer, artworks, art, artist portfolio, web designer, illustrators, designer, developers, programmers & coder. 
+    </p>
+	  </section>
+	  
+	  
+	  
+      <section id="install_quickstart">
+        <h3>Install Quickstart</h3>
+        <hr class="notop">
+        <h5>
+              <strong>Configure Database Connection</strong>
+            </h5>
+            <p>
+              You need to have previously setup database from the cPanel.
+            </p>
+            <p>
+              Here is a good tutorial&nbsp;<a href=
+              "https://www.namecheap.com/support/knowledgebase/article.aspx/9363/2180/how-to-create-and-maintain-mysql-databases-in-cpanel"
+              target="_blank">how to setup MySQL database in cPanel</a>&nbsp;if you are
+              not familiar with this.
+            </p>
+            <ol>
+              <li>Login to cPanel by accessing www.yourdomain.com/cpanel and navigate go
+              MySQL Databases.
+              </li>
+              <li>Create database first.
+              </li>
+              <li>Create user for database and setup your password.
+              </li>
+              <li>Add the user to database by selecting the database and the username.
+              </li>
+              <li>Open the file <strong>iprofile_db.sql</strong> in database folder of package files and <strong>Import the Database.</strong> It will create all required database tables and sample content.
+              </li>
+              <li>If you are workin on localhost go to the localhost/phpmyadmin then click on new database and then click on import database option then select the databse file in you mainfolder/database/iprofile_db.sql file and upload it. </li>
+            </ol>
+            <p>
+              Make sure you have checked All privileged when adding the user to
+              database.
+            </p>
+      
+            <hr>
+            <h5><strong>Setup Base URL</strong></h5>
+            <p><strong>Note: You Dont need to setup base url it will generates automatically. If you want to chagne in any case follow the lines below... </strong></p>
+            <p>Go to root directory and then go application/config/config.php and setup $config['base_url'] where iprofile Script will be installed.</p>
+            <p>You need to add your base url to this line:</p>
+            <pre style="box-sizing: border-box; font-weight: 700;">
+              $config['base_url'] = '';
+            </pre>
+              <p>Ex. If you are installing on <strong>subdomain</strong> you will set http://www.iprofile.domain.com/</p>
+              <p>Ex. If you are installing on <strong>subfolder</strong> you will set http://www.domain.com/iprofile/</p>
+              <p>Ex. If you are installing on the main domain you need to set just http://www.domain.com/</p>
+            <pre style="box-sizing: border-box; font-weight: 700;">
+              $config['base_url'] = 'http://www.domain.com/iprofile/';
+            </pre>
+            <strong>NOTE:The url must ends with slash (/)</strong>
+      </section>
+
+
+
+      <section id="config">
+        <h3>Site Configuration</h3>
+        <hr class="notop"><br/>
+
+        <h5><strong>Change Database Settings</strong></h5>
+        <p>Go to your project root directory then open: <strong>application/config/database.php then</strong> Change your database name, username and password like in the image below,</p>
+        <img src="assets/database.jpg" />
+        <p>&nbsp; </p>
+        
+        <h4><strong>General Setting</strong></h4>
+        <p>Change the Site Name, Favicon, Logo, footer content in "yourdomain/admin/general_settings" file.<br />
+        <img src="assets/general_setting.png" style="width: 70%">
+
+        <br/><br/><br/>
+
+        <h4><strong>Change Email Setting</strong></h4>
+        <p>Change the SMTP Username and Password  in "yourdomain/admin/general_settings" file.<br />
+        <strong>Note:</strong> You need to use a valid domain email address. And Email will work only on live server not on localhost.</p>
+        <img src="assets/email.png" style="width: 70%">
+
+        <br/><br/><br/>
+
+        <h4><strong>Google Recaptcha Setting</strong></h4>
+         <p>Create a Google recaptcha Api kets and add it in "yourdomain/admin/general_settings" Google Recaptcha Tab.<br />
+        <strong>Note:</strong> You need to use a valid recaptcha credentials. And recaptcha will work only on live server not on localhost.</p>
+        <img src="assets/recaptcha.png" style="width: 70%">
+
+        <br/><br/><br/>
+
+        <h4><strong>Multilanguage Configuration</strong></h4>
+        <p>If you want to add new language, go to application/language/ folder then copy any language folder file and rename it with your language name then change all the variable to your language. After that go to the admin panel and click on the languge settings and add name and directory name.</p>
+        <ul>
+          <li>You can add new labels in files available inside following language directories of the source code</li>
+          <li>application/language/english</li>
+          <li>application/language/french</li>
+          <li>Please note that above example is for two languages only. If you have more language directories in your project, you have to add new label ($lang[‘label_name’] = “label translation”; ) with its translation in each unique language directory in relevant language file.</li>
+          <li>Following image is for reference, you can get an idea of the structure of language files inside project.</li>
+        </ul>
+        <img src="assets/languages.png" style="width: 70%">
+
+        <br/><br/><br/>
+
+        
+        
+    </section>  
+
+
+  	 <section id="library">
+  		  <h3>Third Party Libraries</h3>
+          <hr class="notop"><br/>
+          <h5><strong>mPDF (For PDF Generation)</strong></h5>
+          <p>mPDF is a PHP library which generates PDF files from UTF-8 encoded HTML.
+          It is based on FPDF and HTML2FPDF (see CREDITS), with a number of enhancements. mPDF was written by Ian Back and is released under the GNU GPL v2 licence.</p>
+          <p>mPDF 7.0 requires PHP ^5.6 || ~7.0.0 || ~7.1.0 || ~7.2.0. PHP mbstring and gd extensions have to be loaded.</p>
+          <p>* For more information visit this link <a href="https://github.com/phpclicks/mpdf">https://github.com/phpclicks/mpdf</a></p><br/>
+  	 </section>
+
+     <section id="customization">
+        <h3>Customization</h3>
+        <hr class="notop"><br/>
+        <h5><strong>Header Adjustment</strong></h5>
+        <p>Go to the site folder iprofile and open file application\views\themes\main_header.php. Here you can set logo, naviation and Account Buttons.</p>
+        <img src="assets/header.png" style="width: 60%">
+
+        <h5><strong>Email Adjustment</strong></h5>
+        <p>Go to the site folder iprofile and open file application\libraries\mailer.php. Here you can change anyting according to your need.</p>
+        <img src="assets/mailer.png" style="width: 60%">
+
+        <h5><strong>Routes File</strong></h5>
+        <p>If you want to change the Route file go to iprofile/application/config/route.php here you can change the route according to your requirements</p>
+
+        <h5><strong>My Controller File</strong></h5>
+        <p>If you want to change the MY Controller file go to iprofile/application/core/MY_Controller.php and edit it according to your needs.</p>
+      </section>
+
+
+      <section id="User">
+        <h3>User Panel</h3>
+        <hr class="notop">
+        <p style="width:60%;">The User administrator module having all privileges about this entire project. </p>
+
+        <h5>User URL / Access</h5>
+        <h6>yoursitename.com/iprofile/auth/login</h6>
+        <h6>Username: <strong>user123</strong></h6>
+        <h6>Password: <strong>12345678</strong> </h6>
+
+        <p style="width:60%;">The User module having all privileges about this entire project. </p>
+        <p>User can add, edit, delete their experience</p>
+        <img src="assets/experience.png" /> <br/>
+        <p>3. User can add, edit, delete their education</p>
+        <img src="assets/education.png" /> <br/>
+        <p>4. User can add, edit, delete their skills</p>
+        <img src="assets/skills.png" /> <br/>
+        <p>5. User can add, edit, delete their portfolio</p>
+        <img src="assets/portfolio.png" /> <br/>
+        <p>6. User can add, edit, delete their blog</p>
+        <img src="assets/blog.png" /> <br/>
+        <p>7. User can sechude appointment</p>
+        <img src="assets/appointment.png" /> <br/>
+
+      </section>
+	 
+
+    <section id="admin">
+      <h3>Admin Panel</h3>
+      <hr class="notop">
+
+      <h5>Admin URL / Access</h5>
+      <h6>yoursitename.com/iprofile/auth/login</h6>
+      <h6>Username: <strong>admin</strong></h6>
+      <h6>Password: <strong>12345678</strong> </h6>
+
+       <p>1. This is the main Dashboard overview. you can see all your information about the user.</p>
+       <img src="assets/dashboard.png" /> <br/>
+       <p>2. To see and change your user profile and you can add , edit and delete the user from this option.</p>
+       <img src="assets/user_list.png" /> <br/>
+        <p>3. Front End Service Addup form</p>
+       <img src="assets/home_services.png" /> <br/>
+       <p>4. Front End screenshot addUp form</p>
+       <img src="assets/screenshorts.png" /> <br/>
+       <p>4. CMS Custom Page Management</p>
+       <img src="assets/cmspages.png" /> <br/>
+     
+
+    </section>
+
+       
+                
+    <section id="version">
+
+    	<h3>Version</h3>
+      <hr class="notop">
+      
+       <p><strong>Version 1.6 (20 May 2020)</strong></p>
+      <ul>
+        <li>Fixed &ndash; Change password issue at user side</li>
+        <li>Fixed &ndash; Some operation are disabled in demo</li>
+         <li>Fixed &ndash; Favicon & logo issue at admin side</li>
+        <li>Fixed &ndash; Current Version</li>
+        <li>Fixed &ndash; Profile Social media links </li>
+        <li>Fixed &ndash; Css issues in resume templates</li>
+        <li>Improve &ndash; Imporve Documentation</li>
+        <li>Fixed &ndash; Other small bugs</li>
+      </ul>
+
+      <p><strong>Version 1.5 (25 March 2020)</strong></p>
+      <ul>
+        <li>Added &ndash; CMS Custom Pages</li>
+        <li>Added &ndash; New column <b>admin_view</b> in <b>payments</b> Table - Database</li>
+        <li>Fixed &ndash; Remove Uneccesary Social Media buttons if not set by user</li>
+        <li>Fixed &ndash; User Delete Option</li>
+        <li>Fixed &ndash; Updated Footer with Custom Pages Link</li>
+        <li>Fixed &ndash; User/Admin Avatar Upload Issue</li>
+        <li>Fixed &ndash; Package Delete Option</li>
+        <li>Fixed &ndash; Payment Record Delete Option</li>
+        <li>Fixed &ndash; Favicon & Logo upload issue</li>
+        <li>Fixed &ndash; Address field in user profile</li>
+        <li>Fixed &ndash; Profile URL (www.example.com/username)</li>
+        <li>Fixed &ndash; Back Button in profile view</li>
+        <li>Fixed &ndash; Payment Status in paid listing</li>
+        <li>Fixed &ndash; Other small bugs</li>
+      </ul>
+
+      <p><strong>Version 1.4 (21 January 20)</strong></p>
+      <ul>
+        <li>Fixed &ndash; Add Package DB error</li>
+        <li>Fixed &ndash; More than 3 packge display error in Home page</li>
+      </ul>
+
+      <p><strong>Version 1.3 (20 January 2020)</strong></p>
+      <ul>
+        <li>Fixed &ndash; Add Package DB error</li>
+        <li>Fixed &ndash; More than 3 packge display error in Home page</li>
+      </ul>
+
+      <p><strong>Version 1.2 (4 January 2020)</strong></p>
+      <ul>
+        <li>Fixed &ndash; Screenshots page not found</li>
+        <li>Fixed &ndash; Whatsup link issue</li>
+        <li>Fixed &ndash; Image dimension issue</li>
+        <li>Fixed &ndash; Responsiveness issue</li>
+        <li>Fixed &ndash; Small Bugs</li>
+      </ul>
+
+     <p><strong>Version 1.1 (23 November 2019)</strong></p>
+      <ul>
+        <li>Added &ndash; Multilanguage Module</li>
+        <li>Added &ndash; Serverside datatable processing for users, payments & contact messages</li>
+        <li>Fixed &ndash; Package active inactive status</li>
+        <li>Fixed &ndash; User Active deactive status</li>
+        <li>Added &ndash; Terms n Condition in Registration Form.</li>
+        <li>Fixed &ndash; Social Media Icons</li>
+        <li>Fixed &ndash; Back button on resume page</li>
+      </ul>
+
+      <br>
+       
+    </section>
+
+    <section id="support">
+      <h3>Support</h3>
+      <hr class="notop">
+      <p>For any query or problem feel free to contact us on Email: <a href="mailto:codeglamourofficial@gmail.com">codeglamourofficial@gmail.com</a></p>
+    </section>
+        
+     
+  </div>
+</body>
+
+
+<script src="js/jquery.1.6.4.js"></script>
+<script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+<script src="js/jquery.easing.js"></script>
+<link rel="stylesheet" href="css/shDocumenter.css" media="screen">
+<script src="js/shCore.js"></script>
+<script src="js/shBrushXml.js"></script>
+<script>SyntaxHighlighter.defaults['toolbar'] = false;SyntaxHighlighter.all();</script>
+<script>document.createElement('section');var duration=500,easing='swing';</script>
+<script src="js/script.js"></script>
+
+</html>

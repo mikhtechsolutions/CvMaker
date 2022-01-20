@@ -1,0 +1,20 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-01-20 17:56:57 --> Query error: Duplicate entry 'M' for key 'type' - Invalid query: INSERT INTO `packages` (`name`, `type`, `price`, `num_days`, `is_active`) VALUES ('New Package', 'M', '500', '30', '1')
+ERROR - 2020-01-20 18:02:01 --> Query error: Duplicate entry 'F' for key 'type' - Invalid query: INSERT INTO `packages` (`name`, `type`, `price`, `num_days`, `is_active`) VALUES ('Feee', 'F', '41', '0', '1')
+ERROR - 2020-01-20 18:03:38 --> Query error: Duplicate entry 'F' for key 'type' - Invalid query: INSERT INTO `packages` (`name`, `type`, `price`, `num_days`, `is_active`) VALUES ('Feee', 'F', '41', '0', '1')
+ERROR - 2020-01-20 18:03:56 --> Query error: Duplicate entry 'F' for key 'type' - Invalid query: INSERT INTO `packages` (`name`, `type`, `price`, `num_days`, `is_active`) VALUES ('Feee', 'F', '41', '0', '1')
+ERROR - 2020-01-20 18:04:20 --> Query error: Duplicate entry 'F' for key 'type' - Invalid query: INSERT INTO `packages` (`name`, `type`, `price`, `num_days`, `is_active`) VALUES ('Feee', 'F', '41', '0', '1')
+ERROR - 2020-01-20 18:04:31 --> Query error: Duplicate entry 'F' for key 'type' - Invalid query: INSERT INTO `packages` (`name`, `type`, `price`, `num_days`, `is_active`) VALUES ('Feee', 'F', '41', '0', '1')
+ERROR - 2020-01-20 18:05:52 --> Query error: Duplicate entry 'F' for key 'type' - Invalid query: INSERT INTO `packages` (`name`, `type`, `price`, `num_days`, `is_active`) VALUES ('Feee', 'F', '41', '0', '1')
+ERROR - 2020-01-20 18:06:11 --> Query error: Duplicate entry 'F' for key 'type' - Invalid query: INSERT INTO `packages` (`name`, `type`, `price`, `num_days`, `is_active`) VALUES ('Feee', 'F', '41', '0', '1')
+ERROR - 2020-01-20 18:07:12 --> Query error: Duplicate entry 'F' for key 'type' - Invalid query: INSERT INTO `packages` (`name`, `type`, `price`, `num_days`, `is_active`) VALUES ('Feee', 'F', '41', '0', '1')
+ERROR - 2020-01-20 18:07:38 --> Query error: Duplicate entry 'Y' for key 'type' - Invalid query: INSERT INTO `packages` (`name`, `type`, `price`, `num_days`, `is_active`) VALUES ('Zain ul Abideen', 'Y', '13', '365', '1')
+ERROR - 2020-01-20 18:09:57 --> Query error: Duplicate entry 'F' for key 'type' - Invalid query: INSERT INTO `packages` (`name`, `type`, `price`, `num_days`, `is_active`) VALUES ('Seller City', 'F', '78000', '0', '1')
+ERROR - 2020-01-20 18:10:29 --> Query error: Duplicate entry 'F' for key 'type' - Invalid query: INSERT INTO `packages` (`name`, `type`, `price`, `num_days`, `is_active`) VALUES ('Zain ul Abideen', 'F', '2', '0', '1')
+ERROR - 2020-01-20 18:11:40 --> Query error: Duplicate entry 'F' for key 'type' - Invalid query: INSERT INTO `packages` (`name`, `type`, `price`, `num_days`, `is_active`) VALUES ('asdfad', 'F', '2', '0', '1')
+ERROR - 2020-01-20 18:11:40 --> Severity: Notice --> Undefined property: CI_DB_mysqli_driver::$last_query F:\xampp\htdocs\ozient\iprofile\application\models\admin\Package_model.php 44
+ERROR - 2020-01-20 18:11:51 --> Query error: Duplicate entry 'F' for key 'type' - Invalid query: INSERT INTO `packages` (`name`, `type`, `price`, `num_days`, `is_active`) VALUES ('asdfad', 'F', '2', '0', '1')
+ERROR - 2020-01-20 18:12:08 --> Query error: Duplicate entry 'F' for key 'type' - Invalid query: INSERT INTO `packages` (`name`, `type`, `price`, `num_days`, `is_active`) VALUES ('asdfad', 'F', '2', '0', '1')
+ERROR - 2020-01-20 18:15:11 --> Query error: Duplicate entry 'F' for key 'type' - Invalid query: INSERT INTO `packages` (`name`, `type`, `price`, `num_days`, `is_active`) VALUES ('asdfad', 'F', '2', '0', '1')
+ERROR - 2020-01-20 18:15:32 --> Query error: Duplicate entry 'F' for key 'type' - Invalid query: INSERT INTO `packages` (`name`, `type`, `price`, `num_days`, `is_active`) VALUES ('asdfad', 'F', '2', '0', '1')

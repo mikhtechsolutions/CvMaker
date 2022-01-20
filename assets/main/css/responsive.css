@@ -1,0 +1,111 @@
+
+/* --------------------------
+:: 15. Responsive CSS
+-------------------------- */
+
+
+@media (min-width: 320px) and (max-width: 576px) {
+    .h4{
+        font-size: 22px;
+    }
+    .top_menu #nav .nav-link{
+        background: -webkit-linear-gradient(0deg, #31c999b8 0%, #185a9dab 100%);
+    }
+    .main-header.sticky .top_menu #nav .nav-link {
+        color: #ffffff;
+    }
+    .main_banner_area .info {
+        padding-top: 10px;
+    }
+    .main_banner_area .display-4 {
+        font-size: 2.5rem;
+    }
+   .section-heading > h2 {
+        font-size: 34px;
+    }
+    .home-content .submit{
+        margin-left: 30px;
+    }
+    .feature-single{
+        margin-top: 0;
+    }
+    .feature-img {
+        margin-top: 30px;
+     }
+    .pricing-detail > h5 {
+        font-size: 33px;
+    }
+     #accordion{
+        margin-bottom: 30px;
+    } 
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .main-header.sticky .top_menu #nav .nav-link {
+        color: #ffffff;
+    }
+    .top_menu #nav .nav-link{
+        background: -webkit-linear-gradient(0deg, #31c999b8 0%, #185a9dab 100%);
+    }
+    .main_banner_area .display-4 {
+        font-size: 2.5rem;
+    }
+    .home-content .submit{
+        margin-left: 30px;
+    }
+    .feature-img {
+    margin-top: 5px;
+    }
+    .feature-single{
+        margin-top: 0;
+    }
+     #accordion{
+        margin-bottom: 30px;
+    } 
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    .top_menu #nav .nav-link{
+        background: -webkit-linear-gradient(0deg, #31c999b8 0%, #185a9dab 100%);
+    }
+    .main-header.sticky .top_menu #nav .nav-link {
+    color: #fff;
+    }
+    .feature-single{
+        margin-top: 0;
+    }
+    .feature-img {
+    margin-top: 5px;
+}
+    #accordion{
+        margin-bottom: 30px;
+    }
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .top_menu .navbar-brand {
+        font-size: 42px;
+    }
+    .top_menu #nav .nav-link {
+        padding-right: 7.5px;
+    }
+ }
+
+@media (min-width: 1200px) { ... }
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.top_menu .navbar-brand {
+        font-size: 42px;
+    }
+    .top_menu #nav .nav-link {
+        padding-right: 7.5px;
+    }
+     #accordion{
+        margin-bottom: 30px;
+    }
+}
+

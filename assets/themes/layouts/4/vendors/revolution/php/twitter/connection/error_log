@@ -1,0 +1,2 @@
+[22-Jun-2017 01:37:41 America/Chicago] PHP Fatal error:  Class 'TwitterPhp\Connection\Base' not found in /home3/f1h4z2m1/public_html/html/smith/v1/main/vendors/revolution/php/twitter/connection/Application.php on line 7
+[22-Jun-2017 01:37:42 America/Chicago] PHP Fatal error:  Class 'TwitterPhp\Connection\Base' not found in /home3/f1h4z2m1/public_html/html/smith/v1/main/vendors/revolution/php/twitter/connection/User.php on line 5

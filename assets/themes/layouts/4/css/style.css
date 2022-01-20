@@ -1,0 +1,1393 @@
+/*------------------------------------------------------------------------------------
+
+[Table of contents]
+
+1.Default CSS
+2.About Us
+3.About Content
+4.Skills Section 
+5.Experties Area
+6.Experience Area
+7.Awards Area
+8.PortFolio Area
+9.Education
+10.Clients
+11.Contact
+12.Blog Section
+13.Testimonial
+14.Language
+15.Interest
+16.Reference
+.Footer
+.Responsive
+
+--------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------
+    1. Default CSS
+---------------------------------------------------------------------------------------*/
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    
+    color: #373737;
+    position: relative;
+    background-color: #efefef;
+
+}
+
+#body-wrap {
+    overflow-x: hidden;
+
+}
+
+ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+a,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    outline: none;
+
+}
+
+a,
+button {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+
+}
+
+a {
+    color: #2c3e50;
+    font-size: 13px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1,
+.h1,
+.h2,
+.h3 {
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 46px;
+
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 40px;
+    padding-bottom: 5px;
+    
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 34px;
+    
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 28px;
+    
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 26px;
+    
+}
+
+p {
+    font-size: 14px;
+    color: #777777;
+    line-height: 24px;
+
+}
+
+.container{
+    width: 90%;
+}
+
+section {
+   margin: 90px 0px;
+}
+
+.affix {
+    width: 100%;
+
+}
+
+.navbar {
+    -webkit-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+
+}
+
+.navbar .affix {
+    -webkit-box-shadow: 0 0 20px -10px rgba(0,0,0,0.8);
+    box-shadow: 0 0 20px -10px rgba(0,0,0,0.8);
+    top: 0%;
+    width: 100%;
+
+}
+
+.navbar .affix-top {
+    position: static;
+    top: -10px;
+}
+
+.bg-gray {
+    background-color: #f5f5f5;
+}
+
+.line-title-white,
+.line-title-center,
+.line-title-left {
+    width: 80px;
+    height: 2px;
+    background-color: #e8676b;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.line-title-center {
+    margin-left: calc(50% - 40px);
+}
+.line-title-left {
+    margin-left: 5px;
+}
+
+.header1{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(185, 185, 185, 0.12), 0 1px 4px rgba(185, 185, 185, 0.24);
+    padding: 40px;
+    border-radius: 4px;
+}
+
+/* --------------------------
+:: 2. About Us CSS
+-------------------------- */
+.about-img img {
+    width: 100%;
+}
+
+.about-preword span {
+    color: #fff;
+    background-color: rgb(67, 206, 162);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.1;
+    display: inline-block;
+    padding: 7px 12px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.line{
+    border: 1px solid rgb(67, 206, 162);
+    text-align: center;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.footer {
+    padding: 10px 0px;
+    background-color: rgb(67, 206, 162);
+    margin: 70px 0px 0px;
+    width: 100%;
+}
+
+.footer .footer-social {
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.footer .footer-social a{
+    
+    margin: 0 20px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.footer .footer-social a:hover {
+    color: rgb(54, 71, 51);
+    -webkit-transition: 0.3s;
+    transition: 0.3s
+}
+
+.about-item .profile-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.profile-list .cont {
+    display: block;
+    margin-left: 125px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #9da0a7;
+    margin-top: 20px; 
+    margin-bottom: -8px;
+    
+}
+
+.profile-list .title {
+
+    margin-top: 0px; 
+    margin-bottom: -8px;
+    display: block;
+    width: 120px;
+    float: left;
+    color: #333333;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+/* --------------------------
+:: 3. About Content CSS
+-------------------------- */
+
+.about-content p {
+    border: 0;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+    font-family: "Open Sans";
+}
+
+.about-btn .btn {
+    
+    padding: 15px 75px;
+    letter-spacing: 0.05em;
+    margin: 5px;
+    font-weight: 500;
+    background-color: rgb(67, 206, 162);
+    color: #ffffff;
+
+}
+
+.about-btn button:hover {
+    background-color: rgb(59, 170, 135);
+    color: #fff;
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+/* --------------------------
+:: 4. Skill Section CSS
+-------------------------- */
+
+
+.header1 .progress-title{
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0 20px;
+}
+.header1 .progress{
+    height: 7px;
+    background: #333;
+    border-radius: 0%;
+    box-shadow: none;
+    margin-bottom: 30px;
+    overflow: visible;
+}
+.header1 .progress .progress-bar{
+    position: relative;
+    -webkit-animation: animate-positive 2s;
+    animation: animate-positive 2s;
+}
+.header1 .progress .progress-bar:after{
+    content: "";
+    display: inline-block;
+    width: 9px;
+    background: #fff;
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    right: -1px;
+    z-index: 1;
+    transform: rotate(35deg);
+}
+.header1 .progress .progress-value{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    position: absolute;
+    top: -30px;
+    right: -25px;
+}
+
+.line1{
+    border: 1px solid red;
+    margin-top: 10px;
+    width: 10%;
+    text-align: center;
+}
+
+@-webkit-keyframes animate-positive{
+    0%{ width: 0; }
+}
+@keyframes animate-positive {
+    0%{ width: 0; }
+}
+
+/* --------------------------
+:: 5. Experties Area CSS
+-------------------------- */
+
+.how-it-single {
+    padding: 30px 0px;
+}
+
+
+.single-icon > img {
+    width: 100%;
+}
+
+.how-it-single p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+
+    font-family: "Poppins", sans-serif;
+}
+
+.how-it-single p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.how-it-single .single-detail > h4 {
+    font: 500 16px "Poppins", sans-serif;
+    color: #555;
+    text-transform: uppercase;
+    transition: all 0.4s linear;
+    cursor: pointer;
+   
+}
+
+.how-it-single .single-detail > h4:hover {
+    color: rgb(67, 206, 162); 
+}
+
+.how-it-single .single-detail {
+    margin-left: 35px;
+}
+
+/* --------------------------
+:: 6. Experience Area CSS
+-------------------------- */
+
+.experience-date {
+    margin-top: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 28px;
+    font-size: 15px;
+    color: #777777;
+  }
+  
+
+
+  .row-experience + .row-experience {
+    margin-top: 65px;
+  }
+  .row-experience:last-child .ex-content:before {
+    display: none;
+  }
+
+  .row-experience {
+     
+      margin-top: 30px;
+      padding-left: 40px; 
+  }
+  
+  .ex-content {
+    position: relative;
+  }
+  .ex-content:before {
+    content: '';
+    position: absolute;
+    top: 22px;
+    width: 2px;
+    background-color: #eeeeee;
+    height: calc(100% + 49px);
+    left: calc(-50px + 6px);
+  }
+  .ex-content:after {
+    content: '';
+    position: absolute;
+    top: 7px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: rgb(67, 206, 162);
+    left: -50px;
+  }
+
+  .title {
+    font: 500 16px "Poppins", sans-serif;
+    color: #555;
+    text-transform: uppercase;
+    transition: all 0.4s linear;
+    cursor: pointer;
+}
+
+.ex-content .title {
+    font-size: 18px;
+}
+
+.experience-date {
+    color: rgb(59, 170, 135);
+}
+
+  .ex-content .title:hover {
+    color: rgb(67, 206, 162);
+    transition: all 0.4s linear;
+    cursor: pointer;
+  }
+
+  .ex-content h5 {
+    margin-bottom: 24px;
+    padding-top: 9px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 15px;
+    color: #777777;
+}
+
+/* --------------------------
+:: 7. Awards Area CSS
+-------------------------- */
+  
+.award-item{
+    margin-top: 40px;
+}
+  
+.award-item h5 {
+    font: 600 15px "Open Sans", sans-serif;
+    color: #777777;
+    padding: 8px 0px 26px;
+}
+ 
+.award-item p {
+    line-height: 28px;
+}
+
+.awards .title:hover {
+    color: rgb(67, 206, 162);
+    transition: all 0.4s linear;
+    
+}
+.award-item span{
+    color: rgb(67, 206, 162);
+    height: 10%;
+    
+}
+
+
+
+/* --------------------------
+:: 8. Portfolio Area CSS
+-------------------------- */
+
+.mfp-title {
+    line-height: 30px;
+  }
+  .mfp-title small {
+    line-height: 20px;
+  }
+  
+.portfolio-filter {
+    padding-bottom: 55px;
+    
+}
+
+.portfolio-list {
+    margin-left: 0px;
+    margin-right: 0px;
+    
+
+}
+
+.portfolio-filter li {
+    display: inline-block;
+    font: 600 12px/18px "Poppins", sans-serif;
+    color: #677077;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+
+.portfolio-filter li:hover {
+    color: rgb(59, 170, 135);
+}
+ 
+.portfolio-filter li + li:before {
+    content: "/";
+    width: 1px;
+    height: 100%;
+    color: #cccccc;
+    margin: 0px 22px 0px 18px;
+  }
+  .portfolio-filter li.active {
+    color: rgb(59, 170, 135);
+  }
+  
+  .portfolio-grid {
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+  .portfolio-grid .portfolio-item {
+    padding: 30px;
+    z-index: 0;
+  }
+  .portfolio-grid .portfolio-item .portfolio-image {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .portfolio-grid .portfolio-item .portfolio-image:before {
+    content: "";
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: rgb(59, 170, 135);
+    opacity: 0;
+    transition: all 0.4s linear;
+  }
+  .portfolio-grid .portfolio-item .portfolio-image img {
+    max-width: 100%;
+    width: 100%;
+  }
+  .portfolio-grid .portfolio-item .portfolio-image .texts {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    color: #fff;
+    padding: 0px 35px;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.4s linear;
+  }
+  .portfolio-grid .portfolio-item .portfolio-image .texts h5 {
+    font: 600 15px "Poppins", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 8px;
+  }
+  .portfolio-grid .portfolio-item .portfolio-image .texts h5:before {
+    content: '';
+    width: 35px;
+    height: 2px;
+    bottom: 0;
+    background: #fff;
+    position: absolute;
+    left: 0;
+  }
+  .portfolio-grid .portfolio-item .portfolio-image .texts p {
+    font: 600 13px "Open Sans", sans-serif;
+    padding-top: 9px;
+    color: #fff;
+  }
+  .portfolio-grid .portfolio-item .portfolio-image:hover:before {
+    opacity: 0.70;
+    z-index: 0;
+  }
+  .portfolio-grid .portfolio-item .portfolio-image:hover .texts {
+    opacity: 1;
+  }
+
+
+
+/* --------------------------
+:: 9. Education Area CSS
+-------------------------- */
+
+.education-date {
+    margin-top: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 28px;
+    font-size: 15px;
+    color: #777777;
+  }
+
+  .row-education + .row-education {
+    margin-top: 65px;
+  }
+  .row-education:last-child .ed-content:before {
+    display: none;
+  }
+
+  .row-education {
+
+      margin-top: 30px;
+      padding-left: 40px;
+  }
+  
+  .ed-content {
+    position: relative;
+  }
+  .ed-content:before {
+    content: '';
+    position: absolute;
+    top: 22px;
+    width: 2px;
+    background-color: #eeeeee;
+    height: calc(100% + 49px);
+    left: calc(-50px + 6px);
+  }
+  .ed-content:after {
+    content: '';
+    position: absolute;
+    top: 7px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: rgb(67, 206, 162);
+    left: -50px;
+  }
+
+  .title {
+    font: 500 16px "Poppins", sans-serif;
+    color: #555;
+    text-transform: uppercase;
+    transition: all 0.4s linear;
+    cursor: pointer;
+}
+
+.ed-content .title {
+    font-size: 18px;
+}
+
+.education-date {
+    color: rgb(59, 170, 135);
+}
+
+  .ed-content .title:hover {
+    color: rgb(67, 206, 162);
+    transition: all 0.4s linear;
+    cursor: pointer;
+  }
+
+  .ed-content h5 {
+    margin-bottom: 24px;
+    padding-top: 9px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 15px;
+    color: #777777;
+}
+
+/* --------------------------
+:: 10. Client Area CSS
+-------------------------- */
+  
+  .clients-slider .client-logo {
+    padding: 40px;
+  }
+  .clients-slider .client-logo a {
+    display: block;
+  }
+  .clients-slider .client-logo a img {
+    max-width: 100%;
+    width: auto;
+    opacity: 0.4;
+    transition: opacity 0.5s ease;
+  }
+  .clients-slider .client-logo a:hover img, .clients-slider .client-logo a:focus img {
+    opacity: 1;
+  }
+
+
+/* --------------------------
+:: 11. Contact Area CSS
+-------------------------- */
+
+
+.contact .sec-pad {
+    padding: 20px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 22px;
+  }
+  .contact-form .form-group label {
+    margin-bottom: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 20px;
+    color: #555555;
+  }
+  .contact-form .form-group .form-control {
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: all 0.25s ease;
+    padding: 6px 25px;
+    height: 60px;
+    color: #555;
+    box-shadow: none;
+  }
+  .contact-form .form-group .form-control.placeholder {
+    color: #999;
+  }
+  .contact-form .form-group .form-control:-moz-placeholder {
+    color: #999;
+  }
+  .contact-form .form-group .form-control::-moz-placeholder {
+    color: #999;
+  }
+  .contact-form .form-group .form-control::-webkit-input-placeholder {
+    color: #999;
+  }
+  .contact-form .form-group .form-control:focus {
+    border-color: rgb(67, 206, 162);
+  }
+  .contact-form .form-group textarea.form-control {
+    height: 200px;
+    padding-top: 16px;
+  }
+  .contact-form button {
+    margin-top: 29px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    padding: 0px 63px;
+    height: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #999;
+    transition: all 0.4s linear;
+  }
+  .contact-form button:hover, .contact-form button:focus {
+    border-color: rgb(67, 206, 162);
+    color: rgb(67, 206, 162);
+  }
+  
+  .contact-infos {
+    border-top: 1px solid #eeeeee;
+    margin-top: 80px;
+  }
+  .contact-infos .header-contact-info{
+    padding-bottom: 0px;
+    font: 400 15px "Open Sans", sans-serif;
+    color: #999;
+    text-decoration: none;
+    display: inline-block;
+    padding: 33px 30px;
+    transition: all 0.4s linear;
+}
+
+.contact-infos .header-contact-info:hover {
+    color: rgb(67, 206, 162);
+    cursor: pointer;
+}
+
+
+/* --------------------------
+:: 12. Blog CSS
+-------------------------- */
+
+.blog-area {
+    padding: 30px 30px;
+}
+
+.blog-img .blog-thumb {
+    display: block;
+    height: 240px;
+  }
+  .blog-img .blog-thumb img {
+    transition: all 0.4s linear;
+  }
+
+.blog-content {
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+.blog-date {
+    font: 400 14px "Open Sans", sans-serif;
+    color: #999;
+    font-style: italic;
+
+}
+
+.blog-link {
+    color: #191b1d;
+    padding-bottom: 16px;
+    text-transform: capitalize;
+    transition: all 0.4s linear;
+}
+
+.blog-para {
+    font: 400 16px "Open Sans", sans-serif;
+    color: #999;
+    line-height: 28px;
+}
+
+.blog-link:hover {
+    color: rgb(67, 206, 162);
+}
+
+.blog-content:hover {
+    -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s linear;
+}
+
+.blog-hover:hover img {
+    transform: scale(1.1);
+
+}
+
+.blog-btn button {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    padding: 10px 25px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #999;
+    transition: all 0.4s linear;
+  }
+  .blog-btn button:hover, .blog-btn button:focus {
+    border-color: rgb(67, 206, 162);
+    color: rgb(67, 206, 162);
+  }
+
+
+/* --------------------------
+:: 13. Testimonial CSS
+-------------------------- */
+.testimonials .sec-pad {
+    background-color: none;
+    z-index: 0;
+}
+
+.testimonial-quotes {
+    display: block;
+    text-align: center;
+    font-family: 'Droid Serif', serif;
+    font-weight: 700;
+    line-height: 90px;
+    font-size: 125px;
+    color: #fcedc3;
+  }
+  
+  .testimonial-carousel {
+    text-align: center;
+  }
+  
+  .owl-dots {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .owl-dots .owl-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #e5e5e5;
+    display: inline-block;
+    margin: 0px 5px;
+  }
+  .owl-dots .owl-dot.active {
+    background: rgb(67, 206, 162);
+  }
+  
+  .testimonial-item p {
+    color: #666666;
+    font-style: italic;
+    padding-bottom: 40px;
+  }
+  .testimonial-item .title {
+    font-size: 13px;
+    line-height: 30px;
+  }
+  .testimonial-item h5 {
+    font: 400 14px "Open Sans", sans-serif;
+    color: #666666;
+  }
+
+
+/* --------------------------
+:: 14.Languages CSS
+-------------------------- */
+
+.languages .container{
+    padding: 0%;
+}
+
+.languages .progress {
+    width: 100px;
+    height: 100px;
+    background: none;
+    position: relative;
+    z-index: 0;
+  }
+  
+.languages .progress::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 6px solid #373737;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+.languages .progress>span {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .languages .progress .progress-left {
+    left: 0;
+  }
+  
+  .languages .progress .progress-bar {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 6px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+  }
+  
+  .languages .progress .progress-left .progress-bar {
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+  }
+  
+  .languages .progress .progress-right {
+    right: 0;
+  }
+  
+  .languages .progress .progress-right .progress-bar {
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+  }
+  
+  .languages .progress .progress-value {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+
+/* --------------------------
+:: 15. Interest CSS
+-------------------------- */
+
+.i-content p {
+    font-size: 17px;
+    color: #3D4451;
+    margin-bottom: 50px;
+    
+}
+
+.interest-list {
+    padding: 0px 145px;
+}
+
+.interest-list li{
+    margin: 7px 5px;
+    padding-left:20px; 
+    padding-right: 20px;
+    width: 74px;
+    height: 74px;
+    display: inline-block;
+    border: 1px solid #d7dbde;
+    position: relative;
+    border-radius: 3px;
+}
+
+.interest-list li i {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    line-height: 74px;
+    cursor: pointer;
+    color: rgb(67, 206, 162);
+}
+
+.interest-list li:hover span {
+    opacity: 1;
+    -webkit-transition: all 0.15s ease-in;
+    transition: all 0.15s ease-in;
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+}
+
+.interest-list li span {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1;
+    display: inline-block;
+    background-color: #717171;
+    padding: 5px 8px;
+    white-space: nowrap;
+    position: absolute;
+    top: 100%;
+    margin-top: 30px;
+    z-index: 1;
+    opacity: 0;
+    border-radius: 3px;
+   
+}
+
+/* --------------------------
+:: 15. Reference CSS
+-------------------------- */
+
+
+
+
+
+
+/* --------------------------
+:: . Footer CSS
+-------------------------- */
+
+.footers {
+    margin-bottom: 0px;
+}
+
+.copy-right h6 {
+    color: #666666;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px;
+}
+  
+
+/* --------------------------
+:: . Responsive CSS
+-------------------------- */
+@media (min-width: 320px) and (max-width: 520px){
+
+   
+
+  
+}
+
+@media (max-width: 520px) and (min-width: 320px){
+
+    .about-item {
+        margin-top: 20px;
+    }
+
+.container {
+    width: 100%;
+}
+
+.blog-hover {
+    margin-top: 20px; 
+}
+
+.rounded-lg {
+    margin-top: 20px;
+}
+
+.interest-list li {
+    margin-top: 20px;
+}
+.header {
+    display: none;
+}
+
+
+}
+
+@media (min-width: 520px) and (max-width: 768px){
+
+    .about-item {
+        margin-top: 20px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .blog-hover {
+        margin-top: 20px; 
+    }
+
+    .rounded-lg {
+        margin-top: 20px;
+    }
+
+    .interest-list li {
+        margin-top: 20px;
+    }
+    .header {
+        display: none;
+    }
+  
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    .about-item {
+        margin-top: 20px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .blog-hover {
+        margin-top: 20px; 
+    }
+
+    .rounded-lg {
+        margin-top: 20px;
+    }
+
+    .interest-list li {
+        margin-top: 20px;
+    }
+    .header {
+        display: none;
+    }
+  
+}    
+
+/* --------------------------
+:: 16. Header Left CSS
+-------------------------- */
+
+.header{
+    margin-top: 110px;
+    width: 90px;
+    text-align: center;
+    opacity: 1;
+    visibility: visible;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(185, 185, 185, 0.12), 0 1px 4px rgba(185, 185, 185, 0.24);
+    position: sticky;
+    top: 10px;
+    
+}
+
+.header .top-menu {
+    width: 100%;
+    font-size: 0;
+}
+
+.header .top-menu ul li {
+    display: block;
+    transition: color .3s ease 0s;
+    -webkit-transition: color .3s ease 0s;
+    
+}
+
+.header .top-menu ul li a {
+    padding: 10px 0 14px 0;
+    height: auto;
+}
+.header .top-menu ul li a {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    height: 72px;
+    color: #171717;
+    text-align: center;
+}
+
+.header .top-menu ul li {
+    border-bottom: 1px solid #fff;
+}
+
+
+.header .top-menu ul li:last-child {
+   border-bottom: none;
+}
+
+.header .top-menu ul li a .fab {
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: auto;
+    line-height: normal;
+
+}
+
+.header .top-menu ul li a .link {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    line-height: 13px;
+}
+.header .top-menu ul li a .link {
+    position: absolute;
+    left: 0;
+    top: 57%;
+    width: 100%;
+    display: block;
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all .3s ease 0s;
+    -webkit-transition: all .3s ease 0s;
+}
+
+
+/* --------------------------
+:: 17. Header Top CSS
+-------------------------- */
+
+
+.headers{
+    opacity: 1;
+    margin-top: 10px;
+    visibility: visible;
+    border-radius: 4px;
+    padding: 5px 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(185, 185, 185, 0.12), 0 1px 4px rgba(185, 185, 185, 0.24);
+    z-index: 1;
+}
+
+.headers .top-menu {
+    width: 100%;
+    font-size: 0;
+}
+
+.headers .top-menu ul li {
+    display: block;
+    transition: color .3s ease 0s;
+    -webkit-transition: color .3s ease 0s;
+    
+}
+
+.headers .top-menu ul li a {
+    padding: 10px 0 14px 0;
+    height: auto;
+}
+.headers .top-menu ul li a {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    color: #171717;
+    text-align: center;
+}
+
+.headers .top-menu ul li {
+    border-right: 1px solid rgb(155, 155, 155,0.3);
+}
+
+
+.headers .top-menu ul li:last-child {
+   border-right: none;
+}
+
+.headers .top-menu ul li a .fab {
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: auto;
+    line-height: normal;
+
+}
+
+.headers .top-menu ul li a .link {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    line-height: 13px;
+}
+.headers .top-menu ul li a .link {
+    width: 100%;
+    padding: 0px 20px;
+    display: block;
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all .3s ease 0s;
+    -webkit-transition: all .3s ease 0s;
+}
